@@ -1,0 +1,69 @@
+/* Color Palette
+https://colorhunt.co/palette/2c36393f4e4fa27b5cdcd7c9
+#2C3639 - color 1
+#3F4E4F - color 2
+#A27B5C - color 3
+#DCD7C9 - color 4
+*/
+
+/* Global styles 
+------------------------------------*/
+/* body {
+  /* background: #4e6e81; 
+} */
+#myImage {
+  border-radius: 80%;
+  width: 12%;
+}
+h1,
+h2,
+h3 {
+  font-family: "Cairo Play", semi;
+  margin: 0;
+  font-weight: 600;
+}
+h1 {
+  font-size: 5em;
+  /* border: solid 2px; */
+}
+h2 {
+  font-size: 2.5em;
+  /* border: solid 2px; */
+}
+h3 {
+  font-size: 2em;
+  font-weight: 500;
+}
+p,
+li {
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 1.3em;
+}
+/* Header & Footer 
+------------------------------------*/
+header,
+footer {
+  background-color: #3f4e4f;
+  color: #dcd7c9;
+}
+
+footer div a {
+  color: rgb(203, 199, 243);
+  font-size: 1.3em;
+}
+footer div a:hover {
+  color: #a27b5c;
+}
+
+/* Work Experience
+------------------------------------*/
+#WorkExperience {
+  background-color: #dcd7c9;
+}
+
+/* Education
+------------------------------------*/
+#Education {
+  background-color: #a27b5c;
+  color: #2c3639;
+}

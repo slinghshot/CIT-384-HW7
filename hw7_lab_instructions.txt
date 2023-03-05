@@ -3,7 +3,9 @@ HW7 Resume Site
 In this hw, you’ll continue working on your resume site. You can continue buliding on from HW6.
 
 1.	Update the index.html file
-			a.	Let's update our projects by adding in the content wrappers. To keep the text from spanning across the whole page, starting with the header. Add the first new <div class="content-wrap"> just after the header tag. We want to make sure we enclose all of the content, but stay within the sections. It should contain all elements that the header contains.   
+			a.	Let's update our projects by adding in the content wrappers. To keep the text from spanning across the whole page, 
+            
+            starting with the header. Add the first new <div class="content-wrap"> just after the header tag. We want to make sure we enclose all of the content, but stay within the sections. It should contain all elements that the header contains.   
 
             b. Go back to the CSS now and add in this style in the global section. We're going to keep this style here in the global section, because it's going to be reused throughout the project. Give it a width: 950px; margin: 0 auto; 
 
@@ -19,9 +21,9 @@ In this hw, you’ll continue working on your resume site. You can continue buli
 3. Practice with padding and spacing.
             a. Still in the .content-wrap selector add some padding. I'm going to go with one value 50 pixels, (padding: 50px;). By adding padding to the content wrap, all the page sections using this class will have the same amount of padding. And this will help to keep your designs more consistent.
 
-            b. Now you may notice that while we added the same amount of padding around the entire content wrapper, there's a small difference in the amount of space between the top of the wrapper and the bottom. And that's because there is margin around the heading element. Remove the margin at the top, so that the wrapper padding is more consistent.
+            ==b. Now you may notice that while we added the same amount of padding around the entire content wrapper, there's a small difference in the amount of space between the top of the wrapper and the bottom. And that's because there is margin around the heading element. Remove the margin at the top, so that the wrapper padding is more consistent.
 
-            c. . Back in your CSS file, find your h2 selector, and we're going to set the margin-top to zero (margin-top: 0;). And that's going to remove the margin space, just from the top of the element. Save it, refresh it, check it in the browser.
+            ==c. . Back in your CSS file, find your h2 selector, and we're going to set the margin-top to zero (margin-top: 0;). And that's going to remove the margin space, just from the top of the element. Save it, refresh it, check it in the browser.
             
             d. Next, let's address the white border around the entire page. You could see it on the left, on the bottom, the right side, and the top. Just like the spacing between the sections, this is coming from the default margin as well, but from the body element, and that's why it's wrapping the entire page. So let's go ahead and remove that. Back in your CSS file, find your body selector and set the margin to zero (margin: 0;). Now the white space is gone and the background colors span all the way across
         
@@ -60,7 +62,8 @@ In this hw, you’ll continue working on your resume site. You can continue buli
             
             e. Set the style properties for the newly added .column-wide to width: 70%; float left; min-height: 225px;
             
-            f. remove or comment out the width, float, and margin values from the profile-img selector. Since we'll be using these new global column styles instead to align the content. You can keep the border-radius: 50%; property. 
+            f. remove or comment out the 
+            , float, and margin values from the profile-img selector. Since we'll be using these new global column styles instead to align the content. You can keep the border-radius: 50%; property. 
             
             g. Back in your html file add divs and classes to your Work Experince section to apply our new styling.
                 i. add a new <div class="column-narrow"> that contatins the h3 Job tile, p Company Name, and p Date at job tags in your Job Details section. 

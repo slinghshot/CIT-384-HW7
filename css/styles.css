@@ -138,6 +138,7 @@ for MOBILE anything less than 650 px decrease size of fonts to fit page properly
 ------------------------------------*/
 @media screen and (max-width: 649px) {
   html {
+    background-color: #3f4e4f;
     box-sizing: content-box;
   }
   *,

@@ -12,6 +12,7 @@ https://colorhunt.co/palette/2c36393f4e4fa27b5cdcd7c9
   /* background: #4e6e81; 
 } */
 html {
+  background-color: #3f4e4f;
   box-sizing: border-box;
 }
 *,
@@ -192,7 +193,7 @@ for MOBILE anything less than 650 px decrease size of fonts to fit page properly
     padding-bottom: 10px;
   }
   h3 {
-    font-size: 1.1em;
+    font-size: 1.4em;
     font-weight: 500;
     margin-top: -3px;
   }
@@ -202,7 +203,7 @@ for MOBILE anything less than 650 px decrease size of fonts to fit page properly
   p,
   li {
     font-family: "Archivo Narrow", sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
   }
   span {
     font-size: 14px;
